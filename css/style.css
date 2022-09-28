@@ -1,0 +1,373 @@
+/*Reset*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Main*/
+
+html, body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+/*utility*/
+
+.container {
+    padding: 0 20px;
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+}
+
+.orange {
+    color: #f7c08a;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.btn:hover {
+    color: #f7c08a;
+    background: #fff;
+}
+
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-primary {
+    color: #333;
+    background: #f7c08a;
+}
+
+.clr {
+    clear: both;
+}
+
+.l-heading {
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+/* Padding */
+
+.py-1 {
+    padding: 10px 0;
+}
+.py-2 {
+    padding: 20px 0;
+}
+.py-3 {
+    padding: 30px 0;
+}
+
+/*navbar*/
+
+#navbar {
+    background-color: black;
+    overflow: auto;
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar h1 a {
+    color: white;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    color: white;
+}
+
+#navbar ul li a:hover, #navbar ul li a.current {
+    color: #f7c08a;
+    background-color: #333;
+}
+
+/*Greeting*/
+
+#about-head {
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+    text-align: center;
+    height: 450px;
+    overflow: hidden;
+}
+
+.about-head-content {
+    padding-top: 170px;
+    color: white;
+}
+
+.about-head-content h1 {
+    font-size: 60px;
+}
+
+.about-head-content p {
+    padding: 20px 0;
+    font-size: 18px;
+}
+
+.about-head-content a {
+    background: #333;
+    color: white;
+}
+
+/* Hotel History */
+
+#home-history {
+    height: 500px;
+}
+
+.hotel-img {
+    background: url('../img/photo-1.jpg') no-repeat center center/cover;
+    width: 50%;
+    min-height: 100%;
+    float: left;
+}
+
+.hotel-history {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 100%;
+    padding-top: 100px;
+    float: right;
+    width: 50%;
+    
+}
+
+.hotel-history p {
+    padding: 0px 15px;
+    font-size: 18px;
+}
+
+.hotel-history a {
+    background: #f4f4f4;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Features */
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align:center;
+    
+}
+
+.box i {
+    margin-bottom: 10px ;
+}
+
+
+/*About Page*/
+
+#about-hotel {
+    margin: 10px 0;
+    
+}
+
+#about-hotel .right-content{
+    float: right;
+    min-height: 100%; 
+    width: 50%;
+}
+
+#about-hotel .right-content img {
+    display: block;
+    margin: auto;
+    min-height: 100%;
+    width: 70%;
+    border-radius: 50%;
+    padding: 10px 0;
+}
+
+#about-hotel .left-content {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    
+    
+}
+
+/* Testimonials */
+
+#testimonials {
+    background: url('../img/test-bg.jpg') no-repeat center center/cover;
+    min-height: 100%;
+    padding-top: 100px;
+}
+
+#testimonials h2 { 
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+#testimonials .testimonial {
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+#testimonials .testimonial img {
+    width: 75px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+#testimnonials .testimonial p {
+    
+}
+
+/* Contact Page */
+
+#contact-page {
+    padding: 30px 0px;
+}
+
+#contact-page h1 {
+    font-size: 40px;
+}
+
+#contact-page .line {
+    margin-bottom: 20px;
+}
+
+#contact-page label {
+    display: block;
+    padding-bottom: 10px;
+}
+
+#contact-page input, #contact-page textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+#contact-page textarea {
+    height: 200px;
+}
+
+/*Footer*/
+
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: white;
+    padding: 20px;
+    
+    
+}
+
+@media screen and (max-width: 768px) {
+    #navbar h1 {
+        float: none;
+        text-align: center;
+    }
+
+    #navbar ul, #navbar ul li {
+        float: none;
+        text-align: center;
+    }
+
+    #navbar ul li a {
+        padding: 5px;
+        border-bottom: #444 dotted 1px;
+    }
+
+    .about-head-content {
+        padding-top: 60px;
+        
+    }
+
+    .about-head-content h1 {
+        line-height: 1.2;
+    }
+
+    /*About Page*/
+
+    .hotel-img {
+        display: none;
+    }
+
+    .hotel-history {
+        float: none;
+        width: 100%;
+        
+    }
+
+    .box {
+        float: none;
+        width: 100%;
+        
+    }
+
+    /*About Page */
+
+
+    #about-hotel .left-content, #about-hotel .right-content {
+        float: none;
+        width: 100%;
+    }
+
+    .l-heading {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    #testimonials h2 { 
+        font-size: 40px;
+        line-height: 1.2;
+    
+    }
+
+    #contact-page h1 {
+        text-align: center;
+    }
+
+}
